@@ -12,17 +12,17 @@ body {
   cursor: pointer;
 }
 
+.hold {
+  border: solid 5px #ccc;
+}
+
 .empty {
   display: inline-block;
   height: 160px;
   width: 160px;
   margin: 10px;
-  border: 3px dodgerblue solid;
+  border: solid 3px dodgerblue;
   background-color: white;
-}
-
-.hold {
-  border: solid #ccc 4px;
 }
 
 .hovered {
@@ -30,6 +30,6 @@ body {
   border-style: dashed;
 }
 
-.visible {
+.invisible {
   display: none;
 }
