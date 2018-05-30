@@ -1,5 +1,5 @@
-const fill = document.querySelector(".fill");
-const empties = document.querySelectorAll(".empty");
+var fill = document.querySelector(".fill");
+var empties = document.querySelectorAll(".empty");
 
 //fill listeners
 
@@ -8,7 +8,7 @@ fill.addEventListener("dragend", dragEnd);
 
 //loop through empties call events
 
-for (const empty of empties) {
+for (var empty of empties) {
   empty.addEventListener("dragover", dragOver);
   empty.addEventListener("dragenter", dragEnter);
   empty.addEventListener("dragleave", dragLeave);
